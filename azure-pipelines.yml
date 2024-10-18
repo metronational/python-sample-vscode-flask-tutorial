@@ -1,9 +1,7 @@
 trigger:
 - main
 
-pool:
-  name: test-agent
-  vmImage: ubuntu-latest
+pool: test-agent
 
 strategy:
   matrix:
